@@ -1,7 +1,7 @@
 // src/components/VoteBanner.tsx
 
 import { Box, Typography } from '@mui/material';
-import logoLista1 from '../assets/pud.png';
+import logoLista1 from '../assets/GENERAL -ACTUALIZADO.png';
 
 export default function VoteBanner() {
   return (
@@ -29,8 +29,8 @@ export default function VoteBanner() {
         src={logoLista1}
         alt="Logo Lista 1"
         sx={{
-          width: 150,
-          height: 150,
+          width: 470,
+          height: 350,
           objectFit: 'contain'
         }}
       />
