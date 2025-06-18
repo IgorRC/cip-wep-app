@@ -29,7 +29,7 @@ export default function VoteBanner() {
         src={logoLista1}
         alt="Logo Lista 1"
         sx={{
-          width: 470,
+          width: 370,
           height: 350,
           objectFit: 'contain'
         }}
