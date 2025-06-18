@@ -18,3 +18,5 @@ export async function fetchPersona(dni: string) {
   const { data } = await api.get<PersonaDTO>(`/v1/padron/cip/${dni}`);
   return data;
 }
+
+export default api;

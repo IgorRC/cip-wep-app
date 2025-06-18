@@ -10,6 +10,7 @@ import {
   MenuItem,
 } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
+import KeepAlive from '../components/KeepAlive'; 
 
 export default function MainLayout({ children }: { children: ReactNode }) {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -53,6 +54,10 @@ export default function MainLayout({ children }: { children: ReactNode }) {
       <Box component="main" sx={{ p: 2 }}>
         {children}
       </Box>
+    
+      <KeepAlive />
     </>
+
+    
   );
 }
