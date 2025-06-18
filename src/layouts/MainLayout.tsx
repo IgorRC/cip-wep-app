@@ -51,7 +51,7 @@ export default function MainLayout({ children }: { children: ReactNode }) {
           </Typography>
         </Toolbar>
       </AppBar>
-      <Box component="main" sx={{ p: 2 }}>
+      <Box component="main" sx={{ p: 2}}>
         {children}
       </Box>
     

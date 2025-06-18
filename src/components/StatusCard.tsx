@@ -13,6 +13,7 @@ export default function StatusCard({ found, data }: Props) {
         mt: 2,
         borderLeft: 4,
         borderColor: found ? 'success.main' : 'error.main'
+        
       }}
     >
       <CardContent>
