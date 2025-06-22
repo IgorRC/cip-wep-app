@@ -1,6 +1,5 @@
 import { Card, CardContent, Chip, Typography } from '@mui/material';
 import type { PersonaDTO } from '../api/padronApi';
-import VoteBanner from './VoteBanner';
 
 type Props =
   | { found: true; data: PersonaDTO }
@@ -28,7 +27,6 @@ export default function StatusCard({ found, data }: Props) {
             <Typography variant="h6">{data.nombres} {data.apellidoPaterno} {data.apellidoMaterno}</Typography>
             <Typography>{data.departamento}</Typography>
             <Chip label={data.capitulo} sx={{ mt: 1 }} />
-            <VoteBanner />
           </>
         )}
       </CardContent>
